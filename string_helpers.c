@@ -96,7 +96,6 @@ void WriteHexadecimal(long address, int isUpperCase,
 /**
  * WriteOctal - Writes a long into a hexadecimal string.
  * @address: The hexadecimal to print.
- * @isuppercase: If 1 prints Uppercase letters, if 0 print lower case.
  * @index: Pointer to the buffer output counter.
  */
 void WriteOctal(long address, int *index)
